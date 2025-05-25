@@ -30,4 +30,4 @@ jobs:
         script: |
           cd flask-app
           pip3 install -r requirements.txt
-          nohup python3 app.py &
+          sudo systemctl restart flask-app
